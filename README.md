@@ -19,9 +19,9 @@ mask-detection-system/
 │ ├─ face_mask_detection/ # 마스크 감지 모델
 │ │ ├─ detector.py
 │ │ ├─ inspector.py
-│ │ ├─ models/
-│ │ │ ├─ deploy.prototxt
-│ │ │ └─ res10_300x300_ssd_iter_140000.caffemodel
+│ │ └─ models/
+│ │ ├─ deploy.prototxt
+│ │ └─ res10_300x300_ssd_iter_140000.caffemodel
 │ └─ requirements.txt # Python 패키지 의존성 목록
 │
 └─ .gitignore # IDE 및 빌드 캐시 무시 규칙
