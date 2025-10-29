@@ -1,0 +1,10 @@
+#! Basler FastAPI 서버용 의존성 목록
+fastapi==0.120.0
+uvicorn==0.38.0
+opencv-python==4.12.0.88
+numpy==2.2.6
+pypylon==4.2.0
+Pillow==10.4.0
+deepface==0.0.95
+tf-keras==2.20.1
+requests==2.32.5
