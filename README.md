@@ -9,18 +9,19 @@ Basler 산업용 카메라 또는 웹캠을 통해 얼굴을 인식하고
 
 📁 프로젝트 구조
 mask-detection-system/
-├─ mask client/                       # MFC 클라이언트 (C++)
+├─ mask client/
 │  └─ MfcTestProject/
 ├─ mask server/
-│  └─ pyserver/                       # FastAPI 기반 파이썬 서버
-│     ├─ app.py                       # 메인 서버(실시간 영상 스트리밍 + 감지)
-│     ├─ db.py                        # MySQL DB 로그 관리
-│     └─ face_mask_detection/         # 마스크 감지 모듈
+│  └─ pyserver/
+│     ├─ app.py
+│     ├─ db.py
+│     └─ face_mask_detection/
 │        ├─ detector.py
 │        ├─ inspector.py
 │        └─ models/
 │           ├─ deploy.prototxt
 │           └─ res10_300x300_ssd_iter_140000.caffemodel
-├─ requirements.txt                   # Python 패키지 의존성 목록
-└─ .gitignore                         # IDE/빌드 캐시 등 무시 규칙
+├─ requirements.txt
+└─ .gitignore
+
 
