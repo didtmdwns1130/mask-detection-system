@@ -1,4 +1,4 @@
-Mask Detection System 🩺😷
+Mask Detection System 😷
 
 마스크 착용 여부를 실시간으로 감지하는 시스템입니다.  
 Python FastAPI 서버와 MFC C++ 클라이언트로 구성되어 있으며,  
